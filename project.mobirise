@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "UM-2.0-beta",
-    "currentPage": "home.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -42,7 +42,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 39,
+    "uniqCompNum": 40,
     "versionPublish": "5.0.16",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/unrivaledmarketing-finallogo-128x131.png",
@@ -57,421 +57,7 @@
     "gdpr": false
   },
   "pages": {
-    "inde.html": {
-      "settings": {
-        "title": "About Us",
-        "order": 1
-      },
-      "components": [
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "overflow": "hidden",
-            "svg": {
-              "position": "absolute",
-              "bottom": "6rem",
-              "left": "50%",
-              "transform": "translate(-50%) scale(2, 1.6)"
-            },
-            "#e2_shape": {
-              "fill": "@svg1 !important"
-            },
-            "img": {
-              "border-radius": "10px",
-              "margin": "auto",
-              "box-shadow": "0 10px 55px 5px fade(lighten(@secondaryColor, 10%), 35%)"
-            },
-            "@media (max-width: 576px)": {
-              "img": {
-                "width": "90%!important"
-              }
-            },
-            "H1": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "extHeader19",
-          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"30\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"30\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"60\">\n\n        <input type=\"color\" title=\"Figure Color\" name=\"svg1\" value=\"#0e4051\" selected>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#0e4051\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1c13cb\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1380px\" height=\"760px\" viewBox=\"0 0 1380 760\" preserveAspectRatio=\"xMidYMid meet\">\n        <defs id=\"svgEditorDefs\">\n            <polygon id=\"svgEditorShapeDefs\" style=\"fill:khaki;stroke:black;vector-effect:non-scaling-stroke;stroke-width:0px;\"></polygon>\n        </defs>\n        <rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"1380\" height=\"760\" style=\"fill: none; stroke: none;\"></rect>\n        <path d=\"M0.3577131120350206,0.819491525482845h-1.5000000000000355ZM0.3577131120350206,-3.1805084745172603h-1.5000000000000355ZM-0.14228688796500222,-4.180508474517258h5.000000000000002a5,5,0,0,1,0,6.00000000000003h-5.000000000000025a5,5,0,0,0,0,-6.00000000000003ZM5.8577131120349835,-1.1805084745172634h1.0000000000000249Z\" style=\"fill:khaki; stroke:black; vector-effect:non-scaling-stroke;stroke-width:0px;\" id=\"e2_shape\" transform=\"matrix(1.01506 82.3743 -245.478 0.34062 392.311 526.125)\"></path>\n    </svg>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n\n\n            <div class=\"col-md-10 col-lg-7 align-center\">\n                <h1 class=\"mbr-section-title mbr-regular mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Innovative Technology For Your Business</h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text pb-2 mbr-regular mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium, sem interdum pellentesque\n                    tempus, arcu odio scelerisque dui, ut dictum mi nisl non lacus.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n\n            <div class=\"pt-5 align-center\">\n                <img src=\"@PROJECT_PATH@/assets/images/adobestock-192950048-1368x901.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n\n        </div>\n    </div>\n\n</section>",
-          "_cid": "s6zJCmUs8r",
-          "_anchor": "extHeader19-12",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".row when (@reverseContent)": {
-              "justify-content": "flex-end"
-            },
-            ".back when (@half)": {
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "width": "100%",
-              "height": "~\"@{halfHeight}%\"",
-              "background-color": "@halfColor"
-            },
-            ".block": {
-              "background-color": "@block"
-            },
-            "img": {
-              "width": "100%"
-            },
-            ".content-wrapper": {
-              "margin": "auto",
-              "position": "relative",
-              "padding": "10rem 16rem",
-              "& when not (@reverseContent)": {
-                "display": "flex",
-                "justify-content": "flex-end"
-              }
-            },
-            ".content": {
-              "max-width": "600px"
-            },
-            "h4": {
-              "position": "absolute",
-              "& when (@reverseContent)": {
-                "transform": "rotate(-270deg)",
-                "transform-origin": "bottom right",
-                "right": "18rem"
-              },
-              "& when not (@reverseContent)": {
-                "transform": "rotate(270deg)",
-                "transform-origin": "bottom left",
-                "left": "18rem"
-              },
-              "width": "fit-content",
-              "padding": "0",
-              "margin": "0",
-              "bottom": "35%"
-            },
-            "@media (max-width: 1600px)": {
-              ".content-wrapper": {
-                "padding": "6rem 4rem"
-              },
-              "h4 when (@reverseContent)": {
-                "right": "5rem"
-              },
-              "h4 when not (@reverseContent)": {
-                "left": "5rem"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".content-wrapper": {
-                "padding": "4rem 0rem"
-              },
-              "h4": {
-                "& when (@reverseContent)": {
-                  "right": "2rem"
-                },
-                "& when not (@reverseContent)": {
-                  "left": "2rem"
-                },
-                "bottom": "30%"
-              },
-              "& when (@showtextTitle)": {
-                ".content-wrapper when (@reverseContent)": {
-                  "padding-right": "3rem"
-                },
-                ".content-wrapper when not (@reverseContent)": {
-                  "padding-left": "3rem"
-                }
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff"
-            },
-            "H1": {
-              "color": "#a9e2cf",
-              "text-align": "center"
-            },
-            "h1,h2,h3,h4,p,a": {
-              "font-family": "nobel, sans-serif",
-              "font-weight": "200",
-              "font-style": "normal"
-            }
-          },
-          "_name": "extHeader27",
-          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Right Subtitle\" name=\"showtextTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Block Color\" name=\"block\" value=\"#0e4051\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Top BG\" name=\"half\">\n        <input type=\"color\" title=\"Top BG Color\" name=\"halfColor\" value=\"#efeeee\" condition=\"half\">\n        <input type=\"range\" inline title=\"Height Top BG\" name=\"halfHeight\" min=\"20\" max=\"80\" step=\"5\" value=\"20\" condition=\"half\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/17.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"back\" mbr-if=\"half\"></div>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-9 block\">\n                <div class=\"content-wrapper align-left\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showtextTitle\" mbr-theme-style=\"display-4\"><b>BUSINESS</b> / SUPPLY</h4>\n                    <div class=\"content\">\n                        <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Welcome to a world of</h3>\n                        <h1 class=\"mbr-section-title mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">We're NOT…&nbsp;</h1>\n\n                        <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">A large, overextended general marketing company where you can get lost in the mix, or a traditional direct response agency rolling out the same old playbook.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-white\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s6zCZE11Xe",
-          "_anchor": "extHeader27-t",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".row when (@reverseContent)": {
-              "justify-content": "flex-end"
-            },
-            ".back when (@half)": {
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "width": "100%",
-              "height": "~\"@{halfHeight}%\"",
-              "background-color": "@halfColor"
-            },
-            ".block": {
-              "background-color": "@block"
-            },
-            "img": {
-              "width": "100%"
-            },
-            ".content-wrapper": {
-              "margin": "auto",
-              "position": "relative",
-              "padding": "10rem 16rem",
-              "& when not (@reverseContent)": {
-                "display": "flex",
-                "justify-content": "flex-end"
-              }
-            },
-            ".content": {
-              "max-width": "600px"
-            },
-            "h4": {
-              "position": "absolute",
-              "& when (@reverseContent)": {
-                "transform": "rotate(-270deg)",
-                "transform-origin": "bottom right",
-                "right": "18rem"
-              },
-              "& when not (@reverseContent)": {
-                "transform": "rotate(270deg)",
-                "transform-origin": "bottom left",
-                "left": "18rem"
-              },
-              "width": "fit-content",
-              "padding": "0",
-              "margin": "0",
-              "bottom": "35%"
-            },
-            "@media (max-width: 1600px)": {
-              ".content-wrapper": {
-                "padding": "6rem 4rem"
-              },
-              "h4 when (@reverseContent)": {
-                "right": "5rem"
-              },
-              "h4 when not (@reverseContent)": {
-                "left": "5rem"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".content-wrapper": {
-                "padding": "4rem 0rem"
-              },
-              "h4": {
-                "& when (@reverseContent)": {
-                  "right": "2rem"
-                },
-                "& when not (@reverseContent)": {
-                  "left": "2rem"
-                },
-                "bottom": "30%"
-              },
-              "& when (@showtextTitle)": {
-                ".content-wrapper when (@reverseContent)": {
-                  "padding-right": "3rem"
-                },
-                ".content-wrapper when not (@reverseContent)": {
-                  "padding-left": "3rem"
-                }
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff"
-            },
-            "H1": {
-              "color": "#0e4051",
-              "text-align": "center"
-            },
-            "h1,h2,h3,h4,p,a": {
-              "font-family": "nobel, sans-serif",
-              "font-weight": "200",
-              "font-style": "normal"
-            }
-          },
-          "_name": "extHeader27",
-          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Right Subtitle\" name=\"showtextTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Block Color\" name=\"block\" value=\"#a9e2cf\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" checked>\n        <input type=\"checkbox\" title=\"Top BG\" name=\"half\">\n        <input type=\"color\" title=\"Top BG Color\" name=\"halfColor\" value=\"#efeeee\" condition=\"half\">\n        <input type=\"range\" inline title=\"Height Top BG\" name=\"halfHeight\" min=\"20\" max=\"80\" step=\"5\" value=\"30\" condition=\"half\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/ian-schneider-tammbr4okv4-unsplash-2000x1335.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"back\" mbr-if=\"half\"></div>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-9 block\">\n                <div class=\"content-wrapper align-left\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showtextTitle\" mbr-theme-style=\"display-4\"><b>BUSINESS</b> / SUPPLY</h4>\n                    <div class=\"content\">\n                        <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Welcome to a world of</h3>\n                        <h1 class=\"mbr-section-title mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">We ARE…</h1>\n\n                        <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">A streamlined marketing agency driven to customize our services and each and every campaign to you and your individual business and specific goals. We’re a full-service advertising agency with a clear vision to help clients grow their business; always pushing the boundaries, through innovative, customized, strategic marketing utilizing both traditional and digital media means, with both brand and direct response experience, delivering measurable results to both clients and vendors.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-white\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "extHeader27-u",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise5",
-          "_cid": "s6zD8PYsh6",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".row when (@reverseContent)": {
-              "justify-content": "flex-end"
-            },
-            ".back when (@half)": {
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "width": "100%",
-              "height": "~\"@{halfHeight}%\"",
-              "background-color": "@halfColor"
-            },
-            ".block": {
-              "background-color": "@block"
-            },
-            "img": {
-              "width": "100%"
-            },
-            ".content-wrapper": {
-              "margin": "auto",
-              "position": "relative",
-              "padding": "10rem 16rem",
-              "& when not (@reverseContent)": {
-                "display": "flex",
-                "justify-content": "flex-end"
-              }
-            },
-            ".content": {
-              "max-width": "600px"
-            },
-            "h4": {
-              "position": "absolute",
-              "& when (@reverseContent)": {
-                "transform": "rotate(-270deg)",
-                "transform-origin": "bottom right",
-                "right": "18rem"
-              },
-              "& when not (@reverseContent)": {
-                "transform": "rotate(270deg)",
-                "transform-origin": "bottom left",
-                "left": "18rem"
-              },
-              "width": "fit-content",
-              "padding": "0",
-              "margin": "0",
-              "bottom": "35%"
-            },
-            "@media (max-width: 1600px)": {
-              ".content-wrapper": {
-                "padding": "6rem 4rem"
-              },
-              "h4 when (@reverseContent)": {
-                "right": "5rem"
-              },
-              "h4 when not (@reverseContent)": {
-                "left": "5rem"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".content-wrapper": {
-                "padding": "4rem 0rem"
-              },
-              "h4": {
-                "& when (@reverseContent)": {
-                  "right": "2rem"
-                },
-                "& when not (@reverseContent)": {
-                  "left": "2rem"
-                },
-                "bottom": "30%"
-              },
-              "& when (@showtextTitle)": {
-                ".content-wrapper when (@reverseContent)": {
-                  "padding-right": "3rem"
-                },
-                ".content-wrapper when not (@reverseContent)": {
-                  "padding-left": "3rem"
-                }
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff"
-            },
-            "H1": {
-              "color": "#a9e2cf",
-              "text-align": "center"
-            },
-            "h1,h2,h3,h4,p,a": {
-              "font-family": "nobel, sans-serif",
-              "font-weight": "200",
-              "font-style": "normal"
-            }
-          },
-          "_name": "extHeader27",
-          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Right Subtitle\" name=\"showtextTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Block Color\" name=\"block\" value=\"#0e4051\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Top BG\" name=\"half\">\n        <input type=\"color\" title=\"Top BG Color\" name=\"halfColor\" value=\"#efeeee\" condition=\"half\">\n        <input type=\"range\" inline title=\"Height Top BG\" name=\"halfHeight\" min=\"20\" max=\"80\" step=\"5\" value=\"30\" condition=\"half\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/17.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"back\" mbr-if=\"half\"></div>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-9 block\">\n                <div class=\"content-wrapper align-left\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showtextTitle\" mbr-theme-style=\"display-4\"><b>BUSINESS</b> / SUPPLY</h4>\n                    <div class=\"content\">\n                        <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Welcome to a world of</h3>\n                        <h1 class=\"mbr-section-title mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">We HAVE…</h1>\n\n                        <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">15+ years of Brand and Direct Response (DR) Experience in marketing and media management: <br><br><br>• Working on campaigns for national brands on Forbes top 100 list, top DR products and local businesses.\n<br><br>• Sought-after resource for innovative offline and digital media plans that deliver client ROI goals through highly efficient, on-trend targeting of key demographic audiences <br><br>• Numerous successes with measurable marketing campaigns that demonstrate consistency in driving traffic, increasing revenue and connecting to new audiences <br><br>• Leading influencer pertaining to offline media, explaining media plans, weekly optimizations and analytical results.\n<br><br>• Working on campaigns for national brands on Forbes top 100 list, top DR products and local businesses.\n<br><br>• Sought-after resource for innovative offline and digital media plans that deliver client ROI goals through highly efficient, on-trend targeting of key demographic audiences&nbsp;</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">CONTACT US NOW</a> <a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">CHECK OUT OUR CLIENTS</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "extHeader27-v",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise5",
-          "_cid": "s6zD9cdHw8",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
-    },
-    "home.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Home",
@@ -954,6 +540,436 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "s6ykuom2gp",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"content8\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"about-us.html\" data-app-placeholder=\"Type Text\">about-us</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6zPsKt1Bd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content8-13"
+        }
+      ]
+    },
+    "about-us.html": {
+      "settings": {
+        "title": "About Us",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "overflow": "hidden",
+            "svg": {
+              "position": "absolute",
+              "bottom": "6rem",
+              "left": "50%",
+              "transform": "translate(-50%) scale(2, 1.6)"
+            },
+            "#e2_shape": {
+              "fill": "@svg1 !important"
+            },
+            "img": {
+              "border-radius": "10px",
+              "margin": "auto",
+              "box-shadow": "0 10px 55px 5px fade(lighten(@secondaryColor, 10%), 35%)"
+            },
+            "@media (max-width: 576px)": {
+              "img": {
+                "width": "90%!important"
+              }
+            },
+            "H1": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "extHeader19",
+          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"30\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"30\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"60\">\n\n        <input type=\"color\" title=\"Figure Color\" name=\"svg1\" value=\"#0e4051\" selected>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#0e4051\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1c13cb\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1380px\" height=\"760px\" viewBox=\"0 0 1380 760\" preserveAspectRatio=\"xMidYMid meet\">\n        <defs id=\"svgEditorDefs\">\n            <polygon id=\"svgEditorShapeDefs\" style=\"fill:khaki;stroke:black;vector-effect:non-scaling-stroke;stroke-width:0px;\"></polygon>\n        </defs>\n        <rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"1380\" height=\"760\" style=\"fill: none; stroke: none;\"></rect>\n        <path d=\"M0.3577131120350206,0.819491525482845h-1.5000000000000355ZM0.3577131120350206,-3.1805084745172603h-1.5000000000000355ZM-0.14228688796500222,-4.180508474517258h5.000000000000002a5,5,0,0,1,0,6.00000000000003h-5.000000000000025a5,5,0,0,0,0,-6.00000000000003ZM5.8577131120349835,-1.1805084745172634h1.0000000000000249Z\" style=\"fill:khaki; stroke:black; vector-effect:non-scaling-stroke;stroke-width:0px;\" id=\"e2_shape\" transform=\"matrix(1.01506 82.3743 -245.478 0.34062 392.311 526.125)\"></path>\n    </svg>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n\n\n            <div class=\"col-md-10 col-lg-7 align-center\">\n                <h1 class=\"mbr-section-title mbr-regular mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Innovative Technology For Your Business</h1>\n                <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text pb-2 mbr-regular mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium, sem interdum pellentesque\n                    tempus, arcu odio scelerisque dui, ut dictum mi nisl non lacus.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n\n            <div class=\"pt-5 align-center\">\n                <img src=\"@PROJECT_PATH@/assets/images/adobestock-192950048-1368x901.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_cid": "s6zJCmUs8r",
+          "_anchor": "extHeader19-12",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row when (@reverseContent)": {
+              "justify-content": "flex-end"
+            },
+            ".back when (@half)": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "width": "100%",
+              "height": "~\"@{halfHeight}%\"",
+              "background-color": "@halfColor"
+            },
+            ".block": {
+              "background-color": "@block"
+            },
+            "img": {
+              "width": "100%"
+            },
+            ".content-wrapper": {
+              "margin": "auto",
+              "position": "relative",
+              "padding": "10rem 16rem",
+              "& when not (@reverseContent)": {
+                "display": "flex",
+                "justify-content": "flex-end"
+              }
+            },
+            ".content": {
+              "max-width": "600px"
+            },
+            "h4": {
+              "position": "absolute",
+              "& when (@reverseContent)": {
+                "transform": "rotate(-270deg)",
+                "transform-origin": "bottom right",
+                "right": "18rem"
+              },
+              "& when not (@reverseContent)": {
+                "transform": "rotate(270deg)",
+                "transform-origin": "bottom left",
+                "left": "18rem"
+              },
+              "width": "fit-content",
+              "padding": "0",
+              "margin": "0",
+              "bottom": "35%"
+            },
+            "@media (max-width: 1600px)": {
+              ".content-wrapper": {
+                "padding": "6rem 4rem"
+              },
+              "h4 when (@reverseContent)": {
+                "right": "5rem"
+              },
+              "h4 when not (@reverseContent)": {
+                "left": "5rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".content-wrapper": {
+                "padding": "4rem 0rem"
+              },
+              "h4": {
+                "& when (@reverseContent)": {
+                  "right": "2rem"
+                },
+                "& when not (@reverseContent)": {
+                  "left": "2rem"
+                },
+                "bottom": "30%"
+              },
+              "& when (@showtextTitle)": {
+                ".content-wrapper when (@reverseContent)": {
+                  "padding-right": "3rem"
+                },
+                ".content-wrapper when not (@reverseContent)": {
+                  "padding-left": "3rem"
+                }
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            },
+            "H1": {
+              "color": "#a9e2cf",
+              "text-align": "center"
+            },
+            "h1,h2,h3,h4,p,a": {
+              "font-family": "nobel, sans-serif",
+              "font-weight": "200",
+              "font-style": "normal"
+            }
+          },
+          "_name": "extHeader27",
+          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Right Subtitle\" name=\"showtextTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Block Color\" name=\"block\" value=\"#0e4051\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Top BG\" name=\"half\">\n        <input type=\"color\" title=\"Top BG Color\" name=\"halfColor\" value=\"#efeeee\" condition=\"half\">\n        <input type=\"range\" inline title=\"Height Top BG\" name=\"halfHeight\" min=\"20\" max=\"80\" step=\"5\" value=\"20\" condition=\"half\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/17.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"back\" mbr-if=\"half\"></div>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-9 block\">\n                <div class=\"content-wrapper align-left\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showtextTitle\" mbr-theme-style=\"display-4\"><b>BUSINESS</b> / SUPPLY</h4>\n                    <div class=\"content\">\n                        <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Welcome to a world of</h3>\n                        <h1 class=\"mbr-section-title mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">We're NOT…&nbsp;</h1>\n\n                        <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">A large, overextended general marketing company where you can get lost in the mix, or a traditional direct response agency rolling out the same old playbook.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-white\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6zCZE11Xe",
+          "_anchor": "extHeader27-t",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row when (@reverseContent)": {
+              "justify-content": "flex-end"
+            },
+            ".back when (@half)": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "width": "100%",
+              "height": "~\"@{halfHeight}%\"",
+              "background-color": "@halfColor"
+            },
+            ".block": {
+              "background-color": "@block"
+            },
+            "img": {
+              "width": "100%"
+            },
+            ".content-wrapper": {
+              "margin": "auto",
+              "position": "relative",
+              "padding": "10rem 16rem",
+              "& when not (@reverseContent)": {
+                "display": "flex",
+                "justify-content": "flex-end"
+              }
+            },
+            ".content": {
+              "max-width": "600px"
+            },
+            "h4": {
+              "position": "absolute",
+              "& when (@reverseContent)": {
+                "transform": "rotate(-270deg)",
+                "transform-origin": "bottom right",
+                "right": "18rem"
+              },
+              "& when not (@reverseContent)": {
+                "transform": "rotate(270deg)",
+                "transform-origin": "bottom left",
+                "left": "18rem"
+              },
+              "width": "fit-content",
+              "padding": "0",
+              "margin": "0",
+              "bottom": "35%"
+            },
+            "@media (max-width: 1600px)": {
+              ".content-wrapper": {
+                "padding": "6rem 4rem"
+              },
+              "h4 when (@reverseContent)": {
+                "right": "5rem"
+              },
+              "h4 when not (@reverseContent)": {
+                "left": "5rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".content-wrapper": {
+                "padding": "4rem 0rem"
+              },
+              "h4": {
+                "& when (@reverseContent)": {
+                  "right": "2rem"
+                },
+                "& when not (@reverseContent)": {
+                  "left": "2rem"
+                },
+                "bottom": "30%"
+              },
+              "& when (@showtextTitle)": {
+                ".content-wrapper when (@reverseContent)": {
+                  "padding-right": "3rem"
+                },
+                ".content-wrapper when not (@reverseContent)": {
+                  "padding-left": "3rem"
+                }
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            },
+            "H1": {
+              "color": "#0e4051",
+              "text-align": "center"
+            },
+            "h1,h2,h3,h4,p,a": {
+              "font-family": "nobel, sans-serif",
+              "font-weight": "200",
+              "font-style": "normal"
+            }
+          },
+          "_name": "extHeader27",
+          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Right Subtitle\" name=\"showtextTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Block Color\" name=\"block\" value=\"#a9e2cf\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" checked>\n        <input type=\"checkbox\" title=\"Top BG\" name=\"half\">\n        <input type=\"color\" title=\"Top BG Color\" name=\"halfColor\" value=\"#efeeee\" condition=\"half\">\n        <input type=\"range\" inline title=\"Height Top BG\" name=\"halfHeight\" min=\"20\" max=\"80\" step=\"5\" value=\"30\" condition=\"half\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/ian-schneider-tammbr4okv4-unsplash-2000x1335.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"back\" mbr-if=\"half\"></div>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-9 block\">\n                <div class=\"content-wrapper align-left\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showtextTitle\" mbr-theme-style=\"display-4\"><b>BUSINESS</b> / SUPPLY</h4>\n                    <div class=\"content\">\n                        <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Welcome to a world of</h3>\n                        <h1 class=\"mbr-section-title mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">We ARE…</h1>\n\n                        <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">A streamlined marketing agency driven to customize our services and each and every campaign to you and your individual business and specific goals. We’re a full-service advertising agency with a clear vision to help clients grow their business; always pushing the boundaries, through innovative, customized, strategic marketing utilizing both traditional and digital media means, with both brand and direct response experience, delivering measurable results to both clients and vendors.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-white\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extHeader27-u",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "s6zD8PYsh6",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row when (@reverseContent)": {
+              "justify-content": "flex-end"
+            },
+            ".back when (@half)": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "width": "100%",
+              "height": "~\"@{halfHeight}%\"",
+              "background-color": "@halfColor"
+            },
+            ".block": {
+              "background-color": "@block"
+            },
+            "img": {
+              "width": "100%"
+            },
+            ".content-wrapper": {
+              "margin": "auto",
+              "position": "relative",
+              "padding": "10rem 16rem",
+              "& when not (@reverseContent)": {
+                "display": "flex",
+                "justify-content": "flex-end"
+              }
+            },
+            ".content": {
+              "max-width": "600px"
+            },
+            "h4": {
+              "position": "absolute",
+              "& when (@reverseContent)": {
+                "transform": "rotate(-270deg)",
+                "transform-origin": "bottom right",
+                "right": "18rem"
+              },
+              "& when not (@reverseContent)": {
+                "transform": "rotate(270deg)",
+                "transform-origin": "bottom left",
+                "left": "18rem"
+              },
+              "width": "fit-content",
+              "padding": "0",
+              "margin": "0",
+              "bottom": "35%"
+            },
+            "@media (max-width: 1600px)": {
+              ".content-wrapper": {
+                "padding": "6rem 4rem"
+              },
+              "h4 when (@reverseContent)": {
+                "right": "5rem"
+              },
+              "h4 when not (@reverseContent)": {
+                "left": "5rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".content-wrapper": {
+                "padding": "4rem 0rem"
+              },
+              "h4": {
+                "& when (@reverseContent)": {
+                  "right": "2rem"
+                },
+                "& when not (@reverseContent)": {
+                  "left": "2rem"
+                },
+                "bottom": "30%"
+              },
+              "& when (@showtextTitle)": {
+                ".content-wrapper when (@reverseContent)": {
+                  "padding-right": "3rem"
+                },
+                ".content-wrapper when not (@reverseContent)": {
+                  "padding-left": "3rem"
+                }
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            },
+            "H1": {
+              "color": "#a9e2cf",
+              "text-align": "center"
+            },
+            "h1,h2,h3,h4,p,a": {
+              "font-family": "nobel, sans-serif",
+              "font-weight": "200",
+              "font-style": "normal"
+            }
+          },
+          "_name": "extHeader27",
+          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Right Subtitle\" name=\"showtextTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Block Color\" name=\"block\" value=\"#0e4051\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <input type=\"checkbox\" title=\"Top BG\" name=\"half\">\n        <input type=\"color\" title=\"Top BG Color\" name=\"halfColor\" value=\"#efeeee\" condition=\"half\">\n        <input type=\"range\" inline title=\"Height Top BG\" name=\"halfHeight\" min=\"20\" max=\"80\" step=\"5\" value=\"30\" condition=\"half\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/17.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"back\" mbr-if=\"half\"></div>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-9 block\">\n                <div class=\"content-wrapper align-left\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showtextTitle\" mbr-theme-style=\"display-4\"><b>BUSINESS</b> / SUPPLY</h4>\n                    <div class=\"content\">\n                        <h3 class=\"mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Welcome to a world of</h3>\n                        <h1 class=\"mbr-section-title mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">We HAVE…</h1>\n\n                        <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">15+ years of Brand and Direct Response (DR) Experience in marketing and media management: <br><br><br>• Working on campaigns for national brands on Forbes top 100 list, top DR products and local businesses.\n<br><br>• Sought-after resource for innovative offline and digital media plans that deliver client ROI goals through highly efficient, on-trend targeting of key demographic audiences <br><br>• Numerous successes with measurable marketing campaigns that demonstrate consistency in driving traffic, increasing revenue and connecting to new audiences <br><br>• Leading influencer pertaining to offline media, explaining media plans, weekly optimizations and analytical results.\n<br><br>• Working on campaigns for national brands on Forbes top 100 list, top DR products and local businesses.\n<br><br>• Sought-after resource for innovative offline and digital media plans that deliver client ROI goals through highly efficient, on-trend targeting of key demographic audiences&nbsp;</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">CONTACT US NOW</a> <a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">CHECK OUT OUR CLIENTS</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extHeader27-v",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "s6zD9cdHw8",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
